@@ -47,6 +47,7 @@ const Login = () => {
       setMessage("Arre wah! OTP aa raha hai, inbox check karo bhai 🚀");
     } catch (err) {
       setError("OTP bhejne mein problem hai yaar! Dubara try karo.");
+      console.log(err)
     }
     setLoading(false);
   };
@@ -246,5 +247,6 @@ const Login = () => {
     </div>
   );
 };
+
 
 export default Login;
