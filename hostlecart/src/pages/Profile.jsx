@@ -110,7 +110,7 @@ const Profile = () => {
   }, []);
 
   const handleLogin = () => {
-    account.createOAuth2Session("google", "http://localhost:5173", "https://hostlecartkanpur.vercel.app");
+    account.createOAuth2Session("google", "http://localhost:5173", "https://hostlecartkanpur.vercel.app","https://hostelcartkanpur.vercel.app);
     // Replace redirect URLs with your production site URLs
   };
 
@@ -377,5 +377,6 @@ const Profile = () => {
     </div>
   );
 };
+
 
 export default Profile;
