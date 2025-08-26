@@ -35,7 +35,7 @@ const Header = () => {
             <div className="flex items-center">
               <div className="flex items-center gap-3">
                 <a  href="/" className="bg-gradient-to-r from-blue-500 to-purple-600  rounded-xl shadow-lg">
-                  <img src="/logo.png" className='w-14 h-14' alt="" />
+                  <img src="/logo.jpg" className='w-14 h-14' alt="" />
                 </a>
                 <div className="hidden sm:block">
                   <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -107,5 +107,6 @@ const Header = () => {
     </>
   );
 };
+
 
 export default Header;
